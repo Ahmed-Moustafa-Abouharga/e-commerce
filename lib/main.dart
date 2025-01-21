@@ -1,6 +1,14 @@
+import 'package:e_commerce/core/DI/di.dart';
+import 'package:e_commerce/core/cache/shared_prefs_handler.dart';
+import 'package:e_commerce/core/resources/styles_manager.dart';
+import 'package:e_commerce/core/routes_manager/route_generator.dart';
+import 'package:e_commerce/core/routes_manager/routes.dart';
 import 'package:flutter/material.dart';
-
-void main() {
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+void main()async {
+  WidgetsFlutterBinding.ensureInitialized();
+  configureDependencies();
+ await SharedPrefsHandler.init();
   runApp(const MyApp());
 }
 
@@ -10,9 +18,16 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme:,
+    return ScreenUtilInit(
+      designSize:const Size(432, 930) ,
+      builder:(context, child) =>  MaterialApp (
+        debugShowCheckedModeBanner: false,
+        theme: AppStyle.lightTheme,
+        home: child,
+        onGenerateRoute: RouteGenerator.getRoute,
+        initialRoute:SharedPrefsHandler.getToken().isNotEmpty? Routes.mainRoute:Routes.signInRoute,
+      ),
     );
   }
 }
+
