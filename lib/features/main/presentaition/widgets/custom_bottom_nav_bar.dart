@@ -1,6 +1,8 @@
-import 'package:e_commerce/core/resources/color_manager.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../core/resources/color_manager.dart';
 
 class CustomBottomNavBarItem extends BottomNavigationBarItem {
   final String title;

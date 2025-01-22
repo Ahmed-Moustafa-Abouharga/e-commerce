@@ -1,9 +1,10 @@
 import 'package:bloc/bloc.dart';
-import 'package:e_commerce/features/auth/signup/domain/entities/SignupEntity.dart';
-import 'package:e_commerce/features/auth/signup/domain/use_cases/signup_use_case.dart';
-import 'package:e_commerce/features/auth/signup/presentation/pages/signup_screen.dart';
+
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';
+
+import '../../domain/entities/SignupEntity.dart';
+import '../../domain/use_cases/signup_use_case.dart';
 
 part 'signup_view_model_state.dart';
 

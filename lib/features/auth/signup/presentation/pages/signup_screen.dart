@@ -1,18 +1,19 @@
-import 'package:e_commerce/core/DI/di.dart';
-import 'package:e_commerce/core/cache/shared_prefs_handler.dart';
-import 'package:e_commerce/core/resources/constants_manager.dart';
-import 'package:e_commerce/core/resources/strings_manager.dart';
-import 'package:e_commerce/core/resources/validator.dart';
-import 'package:e_commerce/core/widgets/custom_elevated_button.dart';
-import 'package:e_commerce/core/widgets/custom_input.dart';
-import 'package:e_commerce/core/widgets/custom_text_field.dart';
-import 'package:e_commerce/features/auth/signup/presentation/manager/signup_view_model_cubit.dart';
+
+import 'package:ecommerce/features/auth/signup/presentation/manager/signup_view_model_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../../core/DI/di.dart';
+import '../../../../../core/cache/shared_prefs_handler.dart';
 import '../../../../../core/resources/assets_manager.dart';
+import '../../../../../core/resources/constants_manager.dart';
+import '../../../../../core/resources/strings_manager.dart';
+import '../../../../../core/resources/validator.dart';
 import '../../../../../core/routes_manager/routes.dart';
+import '../../../../../core/widgets/custom_elevated_button.dart';
+import '../../../../../core/widgets/custom_input.dart';
+import '../../../../../core/widgets/custom_text_field.dart';
 
 class SignupView extends StatefulWidget {
   SignupView({super.key});

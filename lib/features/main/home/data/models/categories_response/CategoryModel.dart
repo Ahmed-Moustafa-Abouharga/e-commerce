@@ -1,4 +1,5 @@
-import 'package:e_commerce/features/main/home/domain/entities/categories_entity/CategoryEntity.dart';
+
+import '../../../domain/entities/categories_entity/CategoryEntity.dart';
 
 /// _id : "6439d61c0049ad0b52b90051"
 /// name : "Music"

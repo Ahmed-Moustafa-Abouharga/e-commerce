@@ -1,11 +1,12 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce/core/remote/api_manager.dart';
-import 'package:e_commerce/core/remote/endpoints.dart';
-import 'package:e_commerce/features/main/home/data/data_sources/categories_dao/categories_dao.dart';
+
 
 import 'package:injectable/injectable.dart';
 
+import '../../../../../../core/remote/api_manager.dart';
+import '../../../../../../core/remote/endpoints.dart';
 import '../../models/categories_response/CategoriesResponse.dart';
+import 'categories_dao.dart';
 @Injectable(as:CategoriesDao )
 class CategoriesDaoImpl extends CategoriesDao{
   ApiManager apiManager;

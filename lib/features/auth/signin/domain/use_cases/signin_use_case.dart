@@ -1,9 +1,10 @@
 import 'package:dartz/dartz.dart';
 
-import 'package:e_commerce/features/auth/signin/domain/repositories/signin_repo.dart';
+
 import 'package:injectable/injectable.dart';
 
 import '../../../signup/domain/entities/SignupEntity.dart';
+import '../repositories/signin_repo.dart';
 
 @injectable
 class SigninUseCase {

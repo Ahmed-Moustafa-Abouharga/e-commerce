@@ -1,13 +1,14 @@
-import 'package:e_commerce/core/cache/shared_prefs_handler.dart';
-import 'package:e_commerce/core/resources/color_manager.dart';
-import 'package:e_commerce/features/main/home/presentation/pages/home_view.dart';
-import 'package:e_commerce/features/main/presentaition/widgets/custom_bottom_nav_bar.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../core/cache/shared_prefs_handler.dart';
 import '../../../../core/resources/assets_manager.dart';
+import '../../../../core/resources/color_manager.dart';
 import '../../../../core/resources/strings_manager.dart';
 import '../../../../core/widgets/custom_text_field.dart';
+import '../../home/presentation/pages/home_view.dart';
+import '../widgets/custom_bottom_nav_bar.dart';
 
 class MainView extends StatefulWidget {
   MainView({super.key});

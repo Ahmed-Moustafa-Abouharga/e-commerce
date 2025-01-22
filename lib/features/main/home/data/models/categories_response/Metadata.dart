@@ -1,4 +1,5 @@
-import 'package:e_commerce/features/main/home/domain/entities/categories_entity/MetadataEntity.dart';
+
+import '../../../domain/entities/categories_entity/MetadataEntity.dart';
 
 /// currentPage : 1
 /// numberOfPages : 1

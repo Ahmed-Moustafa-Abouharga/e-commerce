@@ -1,7 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce/features/auth/signup/domain/entities/SignupEntity.dart';
-import 'package:e_commerce/features/auth/signup/domain/repositories/signup_repo.dart';
+
 import 'package:injectable/injectable.dart';
+
+import '../entities/SignupEntity.dart';
+import '../repositories/signup_repo.dart';
 
 @injectable
 class SignupUseCase {

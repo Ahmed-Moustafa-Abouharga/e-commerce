@@ -1,9 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce/core/remote/api_manager.dart';
-import 'package:e_commerce/core/remote/endpoints.dart';
-import 'package:e_commerce/features/auth/signup/data/data_sources/signup_dao.dart';
-import 'package:e_commerce/features/auth/signup/data/models/SignupResponse.dart';
+import 'package:ecommerce/features/auth/signup/data/data_sources/signup_dao.dart';
+
 import 'package:injectable/injectable.dart';
+
+import '../../../../../core/remote/api_manager.dart';
+import '../../../../../core/remote/endpoints.dart';
+import '../models/SignupResponse.dart';
 
 @Injectable(as: SignupDao)
 class SignupDaoApiImpl extends SignupDao {

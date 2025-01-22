@@ -1,9 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce/core/remote/internet_checker.dart';
-import 'package:e_commerce/features/auth/signup/data/data_sources/signup_dao.dart';
-import 'package:e_commerce/features/auth/signup/domain/entities/SignupEntity.dart';
-import 'package:e_commerce/features/auth/signup/domain/repositories/signup_repo.dart';
+
 import 'package:injectable/injectable.dart';
+
+import '../../../../../core/remote/internet_checker.dart';
+import '../../domain/entities/SignupEntity.dart';
+import '../../domain/repositories/signup_repo.dart';
+import '../data_sources/signup_dao.dart';
 
 @Injectable(as: SignupRepo)
 class SignupRepoImpl extends SignupRepo {

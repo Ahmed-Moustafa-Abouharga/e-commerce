@@ -1,11 +1,11 @@
-import 'package:e_commerce/core/routes_manager/routes.dart';
-import 'package:e_commerce/features/auth/signin/presentation/pages/signin_screen.dart';
-import 'package:e_commerce/features/auth/signup/presentation/pages/signup_screen.dart';
-import 'package:e_commerce/features/main/presentaition/pages/main_view.dart';
+
+import 'package:ecommerce/core/routes_manager/routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../features/main/home/presentation/pages/home_view.dart';
+import '../../features/auth/signin/presentation/pages/signin_screen.dart';
+import '../../features/auth/signup/presentation/pages/signup_screen.dart';
+import '../../features/main/presentaition/pages/main_view.dart';
 
 class RouteGenerator{
 

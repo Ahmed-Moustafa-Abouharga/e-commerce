@@ -1,8 +1,9 @@
-import 'package:e_commerce/features/main/home/domain/entities/categories_entity/CategoryEntity.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../../core/resources/assets_manager.dart';
+import '../../domain/entities/categories_entity/CategoryEntity.dart';
 
 class CustomCategoryWidget extends StatelessWidget {
    CustomCategoryWidget({required this.category});

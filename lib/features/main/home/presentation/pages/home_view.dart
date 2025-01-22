@@ -1,18 +1,14 @@
-import 'package:e_commerce/core/DI/di.dart';
-import 'package:e_commerce/core/resources/assets_manager.dart';
-import 'package:e_commerce/core/resources/strings_manager.dart';
-import 'package:e_commerce/core/widgets/custom_elevated_button.dart';
-import 'package:e_commerce/core/widgets/custom_text_field.dart';
-import 'package:e_commerce/features/auth/signin/presentation/manager/signin_view_model_cubit.dart';
-import 'package:e_commerce/features/main/home/presentation/manager/category/category_cubit.dart';
-import 'package:e_commerce/features/main/home/presentation/widgets/custom_category_widget.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get_it/get_it.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
+import '../../../../../core/DI/di.dart';
+import '../manager/category/category_cubit.dart';
 import '../widgets/custom_ad_item.dart';
+import '../widgets/custom_category_widget.dart';
 import '../widgets/custom_page_indicator.dart';
 
 class HomeView extends StatelessWidget {

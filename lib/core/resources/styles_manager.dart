@@ -1,7 +1,8 @@
-import 'package:e_commerce/core/resources/color_manager.dart';
-import 'package:e_commerce/main.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'color_manager.dart';
 
 class AppStyle {
   static ThemeData lightTheme = ThemeData(

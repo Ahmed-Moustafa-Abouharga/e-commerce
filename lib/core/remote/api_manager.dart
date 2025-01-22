@@ -1,7 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:e_commerce/core/resources/constants_manager.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:injectable/injectable.dart';
+
+import '../resources/constants_manager.dart';
 @singleton
 class ApiManager {
   Dio dio = Dio(

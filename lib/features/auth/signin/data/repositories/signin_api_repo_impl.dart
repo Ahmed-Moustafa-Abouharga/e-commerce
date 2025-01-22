@@ -1,12 +1,12 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce/core/remote/internet_checker.dart';
-import 'package:e_commerce/core/resources/strings_manager.dart';
-import 'package:e_commerce/features/auth/signin/data/data_sources/signin_dao.dart';
 
-import 'package:e_commerce/features/auth/signin/domain/repositories/signin_repo.dart';
 import 'package:injectable/injectable.dart';
 
+import '../../../../../core/remote/internet_checker.dart';
+import '../../../../../core/resources/strings_manager.dart';
 import '../../../signup/domain/entities/SignupEntity.dart';
+import '../../domain/repositories/signin_repo.dart';
+import '../data_sources/signin_dao.dart';
 @Injectable(as: SigninRepo)
 class SigninApiRepoImpl extends SigninRepo{
   SigninDao signinDao ;

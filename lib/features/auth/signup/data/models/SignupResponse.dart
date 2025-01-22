@@ -1,5 +1,6 @@
-import 'package:e_commerce/features/auth/signup/domain/entities/SignupEntity.dart';
 
+
+import '../../domain/entities/SignupEntity.dart';
 import 'User.dart';
 
 /// message : "success"

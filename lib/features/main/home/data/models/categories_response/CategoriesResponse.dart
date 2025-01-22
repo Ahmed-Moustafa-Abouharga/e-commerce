@@ -1,5 +1,5 @@
-import 'package:e_commerce/features/main/home/domain/entities/categories_entity/CategoriesEntity.dart';
 
+import '../../../domain/entities/categories_entity/CategoriesEntity.dart';
 import 'Metadata.dart';
 import 'CategoryModel.dart';
 

@@ -1,5 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce/features/auth/signup/data/models/SignupResponse.dart';
+
+import '../models/SignupResponse.dart';
 
 abstract class SignupDao{
 Future<Either<SignupResponse,String>>  createAccount({

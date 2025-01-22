@@ -1,9 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:e_commerce/core/remote/internet_checker.dart';
-import 'package:e_commerce/features/main/home/data/data_sources/categories_dao/categories_dao.dart';
-import 'package:e_commerce/features/main/home/domain/entities/categories_entity/CategoriesEntity.dart';
-import 'package:e_commerce/features/main/home/domain/repositories/categories_repo/categories_repo.dart';
+
 import 'package:injectable/injectable.dart';
+
+import '../../../../../../core/remote/internet_checker.dart';
+import '../../../domain/entities/categories_entity/CategoriesEntity.dart';
+import '../../../domain/repositories/categories_repo/categories_repo.dart';
+import '../../data_sources/categories_dao/categories_dao.dart';
 @Injectable(as:CategoriesRepo)
 class CategoriesRepoImpl extends CategoriesRepo{
   CategoriesDao categoreisDao;

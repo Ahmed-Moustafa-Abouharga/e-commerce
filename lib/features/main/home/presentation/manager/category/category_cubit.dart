@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:e_commerce/features/auth/signup/presentation/manager/signup_view_model_cubit.dart';
-import 'package:e_commerce/features/main/home/domain/entities/categories_entity/CategoryEntity.dart';
+
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';
 
